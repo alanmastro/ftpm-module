@@ -21,16 +21,16 @@ var ftpmModule = {
 		ftpm.outputPath = fontPath;
 		ftpm.emit('runDriver', 'webfont', 'web', fontName);
 	},
-	getCssFont: function(fontName, fontPath, onlyOutput, cb) {
+	getCssFont: function(fontName, fontPath, cb) {
 		ftpm.callbackFunction = cb;
 		ftpm.outputPath = fontPath;
-		ftpm.showContent = onlyOutput;
+		ftpm.showContent = (!fontPath) ? true : false;
 		ftpm.emit('runDriver', 'cssfont', 'css', fontName);
 	},
-	getDataURI: function(fontName, fontPath, onlyOutput, cb) {
+	getDataURI: function(fontName, fontPath, cb) {
 		ftpm.callbackFunction = cb;
 		ftpm.outputPath = fontPath;
-		ftpm.showContent = onlyOutput;
+		ftpm.showContent = (!fontPath) ? true : false;
 		ftpm.emit('runDriver', 'cssfont', 'datauri', fontName);
 	}
 };
