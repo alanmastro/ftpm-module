@@ -1,7 +1,7 @@
 {
   "name": "ftpm-module",
   "version": "0.0.1",
-  "description": "A Font Package Manager built on top of Google Web Fonts usable inside nodeJS",
+  "description": "Porting of ftpm library can be used as a class within the nodejs.",
   "main": "ftpm-module.js",
   "dependencies": {
     "lodash": "^2.4.1",
