@@ -1,0 +1,44 @@
+{
+  "name": "ftpm-module",
+  "version": "0.0.1",
+  "description": "A Font Package Manager built on top of Google Web Fonts usable inside nodeJS",
+  "main": "ftpm-module.js",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "request": "^2.36.0",
+    "wrench": "^1.5.8"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.2",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heldr/ftpm.git"
+  },
+  "keywords": [
+    "font",
+    "management",
+    "package",
+    "manager",
+    "font",
+    "woff",
+    "ttf",
+    "google",
+    "fonts"
+  ],
+  "author": {
+    "name": "Marco Bicchi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heldr/ftpm/issues"
+  },
+  "homepage": "https://github.com/heldr/ftpm",
+  "_id": "ftpm-module@0.0.1",
+  "_resolved": "https://registry.npmjs.org/ftpm/-/ftpm-0.0.18.tgz"
+}
