@@ -6,7 +6,7 @@ Porting of ftpm library can be used as a class within the nodejs.
 ### Example:
 
 var ftpmModule = require('ftpm-module');  
-ftpmModule.getCssFont('Magra', false, true, function(type, msg) {console.log(type + ': ' + msg);});
+ftpmModule.getCssFont('Magra', false, function(type, msg) {console.log(type + ': ' + msg);});
 
 ===========
 ### Available methods:

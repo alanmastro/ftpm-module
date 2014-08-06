@@ -36,5 +36,3 @@ var ftpmModule = {
 };
 
 module.exports = ftpmModule;
-
-ftpmModule.getCssFont('Magra', false, true, function(type, msg) {console.log(type + ': ' + msg);});
