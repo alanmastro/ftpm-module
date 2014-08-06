@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heldr/ftpm.git"
+    "url": "https://github.com/alanmastro/ftpm-module.git"
   },
   "keywords": [
     "font",
@@ -36,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heldr/ftpm/issues"
+    "url": "https://github.com/alanmastro/ftpm-module/issues"
   },
-  "homepage": "https://github.com/heldr/ftpm",
+  "homepage": "https://github.com/alanmastro/ftpm-module",
   "_id": "ftpm-module@0.0.1",
-  "_resolved": "https://registry.npmjs.org/ftpm/-/ftpm-0.0.18.tgz"
+  "_resolved": "https://github.com/alanmastro/ftpm-module/archive/0.0.1.tar.gz"
 }
